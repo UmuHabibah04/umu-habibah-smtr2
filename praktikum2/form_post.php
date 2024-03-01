@@ -6,20 +6,21 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Form Login </h1>
-    <form action="submit_post.php"methode="PSOT">
+    <h1>Form Registrasi Pengguna</h1>
+    <form action="submit_post.php" method="POST">
         <div>
-        <label for="username"> Username</label>
-        <input type="text" name="username" id="username" required>
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" required>
         </div><br>
+
         <div>
             <label for="password">Password</label>
-            <input type="password" name="password" id="password"required>
+            <input type="password" name="password" id="password" required>
         </div><br>
-        <div>
-            <button type="submit">Register</button>
-        </div>
 
-    </Form>
+        <div>
+            <button type=""submit>Register</button>
+        </div><br>
+    </form>
 </body>
 </html>
