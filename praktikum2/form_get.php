@@ -6,24 +6,23 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Form Registrasi Pengguna</h1>
-    <form action="submit_get.php"methode="GET">
+   <h1>Form Registrasi Pengguna</h1>
+    <form action="submit_get.php"method="GET">
         <div>
-            <label for="Nama_Lengkap">Nama Lengkap</label>
-            <input type="text" name="nama_lengkap" id="nama_lengkap" required>
+            <label for="nama_lengkap">Nama Lengkap</label>
+            <input type="text"name="nama_lengkap" id="nama_lengkap" required>
         </div><br>
         <div>
-        <label for="username"> Username</label>
-        <input type="text" name="username" id="username" required>
+            <label for="username">Username</label>
+            <input type="text"name="username" id="username" required>
         </div><br>
         <div>
             <label for="password">Password</label>
-            <input type="password" name="password" id="password"required>
+            <input type="password" name="password" id="password" required>
         </div><br>
         <div>
             <button type="submit">Register</button>
         </div>
-
-    </Form>
+    </form>
 </body>
 </html>
