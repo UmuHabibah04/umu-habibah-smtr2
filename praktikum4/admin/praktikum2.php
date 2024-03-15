@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+<?php 
+require_once 'navbar.html'; 
+require_once 'sidebar.html'; 
+?>
+
+<h1>Praktikum 2</h1>
 <h1>Form Registrasi Pengguna</h1>
     <form action="submit_get.php"method="GET">
         <div>
@@ -24,5 +22,7 @@
             <button type="submit">Register</button>
         </div>
     </form>
-</body>
-</html>
+
+
+
+<?php require_once 'footer.html'; ?>
