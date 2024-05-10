@@ -6,8 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-<h1>Form Registrasi Pengguna</h1>
-    <form method="GET">
+    <h1>Form Registrasi Pengguna</h1>
+    <form action="submit_get.php"methode="GET">
         <div>
             <label for="nama_lengkap">Nama Lengkap</label>
             <input type="text"name="nama_lengkap" id="nama_lengkap" required>
