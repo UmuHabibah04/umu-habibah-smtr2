@@ -12,7 +12,7 @@ $praktikum = [
         <div class="sidebar-brand-icon rotate-n-15">
             <i class="fa-regular fa-face-smile-beam"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">Habibah<sup>2</sup></div>
+        <div class="sidebar-brand-text mx-3">Puskesmasbeji<sup></sup></div>
     </a>
 
     <!-- Divider -->

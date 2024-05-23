@@ -55,11 +55,11 @@ require_once('../dbkoneksi.php');
                                 ?>
                                 <form action="" method="post">
                                     <div class="form-group">
-                                        <label for="nama">Nama Pasien</label>
+                                        <label for="nama"> Nama Dokter </label>
                                         <input type="text" class="form-control" id="nama" name="nama" required>
                                     </div>
                                     <div class="form-group">
-                                        <label for="tmp_lahir">Tempat lahir</label>
+                                        <label for="tmp_lahir"> Tempat lahir </label>
                                         <input type="text" class="form-control" id="tmp_lahir" name="tmp_lahir" required>
                                     </div>
                                     <div class="form-group">
@@ -67,7 +67,7 @@ require_once('../dbkoneksi.php');
                                         <input type="date" class="form-control" id="tgl_lahir" name="tgl_lahir" required>
                                     </div>
                                     <div class="form-group">
-                                        <label for="gender">Gender Pasien</label><br>
+                                        <label for="gender"> Gender Dokter </label><br>
                                         <input type="radio" id="genderPR" name="gender" value="0">
                                         <label for="genderPR">Perempuan</label>
                                         <input type="radio" id="genderLK" name="gender" value="1">
