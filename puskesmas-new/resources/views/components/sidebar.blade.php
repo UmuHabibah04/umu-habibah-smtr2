@@ -61,7 +61,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a href="/pasien" class="nav-link">
+          <a href="{{url('dashboard/pasien')}}" class="nav-link">
             <i class="nav-icon fas fa-copy"></i>
             <p>
               Pasien

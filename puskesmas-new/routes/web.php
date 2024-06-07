@@ -32,3 +32,13 @@ Route::get('/about',[AboutController::class, 'index']);
 //praktikum laravel 3
 Route::get('/dashboard/kelurahan', [KelurahanController::class, 'index']);
 Route::get('/dashboard/pasien', [PasienController::class, 'index']);
+
+//praktikum laravel4
+Route::get('/dashboard/kelurahan/create', [KelurahanController::class, 'create']);
+Route::post('/dashboard/kelurahan/store', [KelurahanController::class, 'store']);
+Route::get('/dashboard/kelurahan/show/{id}', [KelurahanController::class, 'show']);
+
+// tugas praktikum laravel4
+Route::get('/dashboard/pasien/create', [PasienController::class, 'create']);
+Route::post('/dashboard/pasien/store', [PasienController::class, 'store']);
+Route::get('/dashboard/pasien/show/{id}', [PasienController::class, 'show']);
